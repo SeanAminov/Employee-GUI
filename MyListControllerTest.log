@@ -1,0 +1,36 @@
+
+> Configure project :
+java.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-EmployeeGUI\employeegui-cw-aminovs-mvla\src, C:\Users\scott\ADEN_GRADERS\Grader-EmployeeGUI\employeegui-cw-aminovs-mvla\javafx, C:\Users\scott\ADEN_GRADERS\Grader-EmployeeGUI\employeegui-cw-aminovs-mvla\main\java]
+resources.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-EmployeeGUI\employeegui-cw-aminovs-mvla\src\main\resources]
+java.files = [EmpDataGUI.java, Employee.java, ListController.java, ListControllerADENTest.java, MyFileIO.java, MyListControllerTest.java]
+allJava.files = [EmpDataGUI.java, Employee.java, ListController.java, ListControllerADENTest.java, MyFileIO.java, MyListControllerTest.java]
+resources.files = []
+allSource.files = [EmpDataGUI.java, Employee.java, ListController.java, ListControllerADENTest.java, MyFileIO.java, MyListControllerTest.java]
+
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+MyListControllerTest > test_AddWithEmptyData() PASSED
+
+MyListControllerTest > test_AddWithBadSSN() PASSED
+
+MyListControllerTest > test_AddWithDuplicateSSN() PASSED
+
+MyListControllerTest > test_AddWithBadAge() SKIPPED
+
+MyListControllerTest > test_AddWithBadSalary() SKIPPED
+
+MyListControllerTest > test_AddWithBadYears() SKIPPED
+
+> Task :jacocoTestReport
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+Gradle Time = 3

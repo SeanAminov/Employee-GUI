@@ -1,0 +1,48 @@
+
+> Configure project :
+java.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-EmployeeGUI\employeegui-cw-aminovs-mvla\src, C:\Users\scott\ADEN_GRADERS\Grader-EmployeeGUI\employeegui-cw-aminovs-mvla\javafx, C:\Users\scott\ADEN_GRADERS\Grader-EmployeeGUI\employeegui-cw-aminovs-mvla\main\java]
+resources.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-EmployeeGUI\employeegui-cw-aminovs-mvla\src\main\resources]
+java.files = [EmpDataGUI.java, Employee.java, ListController.java, ListControllerADENTest.java, MyFileIO.java, MyListControllerTest.java]
+allJava.files = [EmpDataGUI.java, Employee.java, ListController.java, ListControllerADENTest.java, MyFileIO.java, MyListControllerTest.java]
+resources.files = []
+allSource.files = [EmpDataGUI.java, Employee.java, ListController.java, ListControllerADENTest.java, MyFileIO.java, MyListControllerTest.java]
+
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ListControllerADENTest > test_AddWithEmptyData() PASSED
+
+ListControllerADENTest > test_AddWithBadSSN() PASSED
+
+ListControllerADENTest > test_AddWithDuplicateSSN() PASSED
+
+ListControllerADENTest > test_AddWithBadAge() PASSED
+
+ListControllerADENTest > test_AddWithBadSalary() PASSED
+
+ListControllerADENTest > test_AddWithBadYears() PASSED
+
+ListControllerADENTest > test_AddEmployee() PASSED
+
+ListControllerADENTest > test_sortBySalary() PASSED
+
+ListControllerADENTest > test_sortByName() PASSED
+
+ListControllerADENTest > test_sortByID() PASSED
+
+ListControllerADENTest > test_SaveMethod() PASSED
+
+ListControllerADENTest > test_RestoreMethod() PASSED
+
+> Task :jacocoTestReport
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+Gradle Time = 4
